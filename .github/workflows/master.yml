@@ -1,0 +1,13 @@
+name: Build and Deploy to Netlify
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Netlify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Primer mensaje
+        run: echo "Primer mensaje"
