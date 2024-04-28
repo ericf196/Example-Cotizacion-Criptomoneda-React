@@ -9,5 +9,9 @@ jobs:
   Netlify:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo Primer mensaje
+      - name: Primer mensaje
         run: echo "Primer mensaje"
+      - name: Fecha del sistema
+        run: date
+      - name: Aplica ls -l
+        run: ls -l
