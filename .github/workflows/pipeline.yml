@@ -19,6 +19,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: ls -l
+        run: ls -l
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
         with:
