@@ -45,7 +45,7 @@ const App = () => {
           <img src={image} alt="imagen criptomonedas" />
         </div>
         <div className="one-half column">
-          <h1>Cotiza Criptomonedas al Instante Prueba 1</h1>
+          <h1>Cotiza Criptomonedas al instante y actualizada.</h1>
 
           <Formulario
             setMoneda={setMoneda}
